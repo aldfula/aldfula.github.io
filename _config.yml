@@ -136,12 +136,12 @@ yat:
 #   - tags.html
 #   - about.md
 
- Page default value
- defaults:
-   home:
-     heading: "ALDFULA's BLOG"
-     subheading: "about eureka"
-     banner: "Your image url"
+# Page default value
+# defaults:
+#   home:
+#     heading: "ALDFULA's BLOG"
+#     subheading: "about eureka"
+#     banner: "Your image url"
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
@@ -165,9 +165,10 @@ yat:
 # Pagination setting
 # paginate: 5
 
-# Disqus comments
-# disqus:
-#   shortname: "aldfula"
+# comment:
+#   provider: "disqus"
+#   disqus:
+#     shortname: "aldfula"
 
 # Gitment comments
 # gitment:
